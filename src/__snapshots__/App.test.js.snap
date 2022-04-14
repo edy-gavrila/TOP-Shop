@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests It renders correctly 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="bg-slate-800 text-white   py-4"
+    >
+      <div
+        class="container flex flex-col sm:flex-row items-center"
+      >
+        <h1
+          class="text-3xl pb-4 sm:pb-0"
+        >
+          SHOP.
+        </h1>
+        <nav
+          class="flex flex-grow justify-end"
+        >
+          <ul
+            class="flex gap-4"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/shop"
+              >
+                Shop
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cart"
+              >
+                Cart
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      data-testid="home-component"
+    >
+      Home
+    </div>
+  </div>
+</div>
+`;
