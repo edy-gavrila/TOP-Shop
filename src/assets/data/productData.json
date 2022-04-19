@@ -4,7 +4,7 @@
         "title": "Bentley Bentayga",
         "imgUrl": "https://web2.wheelz.me/wp-content/uploads/2021/05/Bentley-Bentayga-Mansory-2021-9.jpg",
         "description": "This stylish car goes well with LV Handbags and Chihuahuas.",
-        "price": "130000",
+        "price": "130,000",
         "userRating": ""
     },
     {
@@ -12,7 +12,7 @@
         "title": "BMW 7 Series",
         "imgUrl": "https://www.bmw.ca/content/dam/bmw/common/all-models/7-series/sedan/2019/inform/bmw-7series-sedan-inform-line-02-slide-02.jpg",
         "description": "A must have for every executive. Goes well with a Rolex watch.",
-        "price": "87000",
+        "price": "87,000",
         "userRating": ""
     },
     {
@@ -20,7 +20,7 @@
         "title": "BMW X6",
         "imgUrl": "https://mediacloud.carbuyer.co.uk/image/private/s--QDVS7VFS--/v1584466393/carbuyer/car_images/bmw-x6-suv-cutout-2019.jpg",
         "description": "Are you a bad boi? Then this car is definely for you!",
-        "price": "64000",
+        "price": "64,000",
         "userRating": ""
     },
 
@@ -29,7 +29,7 @@
         "title": "Lamborghini Urus",
         "imgUrl": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/09_26_graphite_lancio/family_chooser1_m.png",
         "description": "If you can afford this, Congratulations! You've won life!",
-        "price": "230000",
+        "price": "230,000",
         "userRating": ""
     },
     {
@@ -37,7 +37,7 @@
         "title": "Mercedes-Benz GLE Coupe",
         "imgUrl": "https://www.mansory.com/sites/default/files/styles/1920x800_fullwidth_car_slider/public/2021-06/mansory-mercedes-gle-coupe-01.jpg?itok=vBiOpXxU",
         "description": "The essential accessory every suburban mum on the school run shoud have. Watch those rubber necks!",
-        "price": "90000",
+        "price": "90,000",
         "userRating": ""
     },
     {
@@ -45,39 +45,39 @@
         "title": "Mercedes-Benz S Class",
         "imgUrl": "https://www.mansory.com/sites/default/files/styles/1920x800_fullwidth_car_slider/public/2021-05/mansory-mercedes-s-class-w223-01.jpg?itok=OgNXlJgr",
         "description": "Do you want to feel as you are driving an airplane crossed with a tank? Then this is for you!",
-        "price": "95000",
+        "price": "95,000",
         "userRating": ""
     },
     {
         "id": "6",
         "title": "Audi Q8",
         "imgUrl": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/34470/audi-q8-front-view4.jpeg?q=75",
-        "description": "",
-        "price": "55000",
+        "description": "A perfect compromise between a middle of life crisys and a family man!",
+        "price": "55,000",
         "userRating": ""
     },
     {
         "id": "7",
         "title": "Range Rover Evoque",
         "imgUrl": "https://new.img-cdn.lookers.co.uk/nvmp/CAR/94411/1ec3dc68-6ad9-4423-8d68-e4fb7a451cb7/42d04281-c500-4cdc-9f40-c5dc1d98084b?w=1200",
-        "description": "",
-        "price": "75000",
+        "description": "A perfect gift for daddy's little prince(ss).",
+        "price": "75,000",
         "userRating": ""
     },
     {
         "id": "8",
         "title": "Range Rover Velar",
         "imgUrl": "https://sx-content-labs.sixt.io/Media/8fleet-1050x600/land-rover-range-rover-velar-5d-silber-2018.png",
-        "description": "",
-        "price": "85000",
+        "description": "This car is an important fashion statement. It oozes power, fame, money!",
+        "price": "85,000",
         "userRating": ""
     },
     {
         "id": "9",
         "title": "Tesla Model X",
         "imgUrl": "https://cdn.motor1.com/images/mgl/VR69l/s3/2022-tesla-model-x.jpg",
-        "description": "",
-        "price": "65000",
+        "description": "Nothing says more \"I have loads of dosh but I care about the environment than this beauty!\" ",
+        "price": "65,000",
         "userRating": ""
     }
 ]
