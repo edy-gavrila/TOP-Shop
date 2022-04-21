@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TOP-Shop/static/css/main.19721b51.css",
-    "main.js": "/TOP-Shop/static/js/main.65083753.js",
+    "main.js": "/TOP-Shop/static/js/main.f61692cd.js",
     "static/media/car-drawing.png": "/TOP-Shop/static/media/car-drawing.c139b7404a6593b4135a.png",
     "index.html": "/TOP-Shop/index.html",
     "main.19721b51.css.map": "/TOP-Shop/static/css/main.19721b51.css.map",
-    "main.65083753.js.map": "/TOP-Shop/static/js/main.65083753.js.map"
+    "main.f61692cd.js.map": "/TOP-Shop/static/js/main.f61692cd.js.map"
   },
   "entrypoints": [
     "static/css/main.19721b51.css",
-    "static/js/main.65083753.js"
+    "static/js/main.f61692cd.js"
   ]
 }
