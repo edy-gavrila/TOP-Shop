@@ -33,7 +33,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £130,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -65,7 +65,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £87,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -97,7 +97,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £64,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -129,7 +129,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £230,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -161,7 +161,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £90,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -193,7 +193,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £95,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -225,7 +225,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £55,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -257,7 +257,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £75,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -289,7 +289,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £85,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>
@@ -321,7 +321,7 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
         £65,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95"
+        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
       >
         Add to Cart
       </button>

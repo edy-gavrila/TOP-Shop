@@ -17,7 +17,7 @@ function Home() {
         <h2 className="text-5xl md:text-4xl text-blue-600 font-bold mb-20 md:mb-14">
           Welcome to the SHOP.!
         </h2>
-        <Link to="/shop" className="flex items-center mx-auto max-w-fit bg-slate-800 shadow-md shadow-slate-800 text-white px-4  py-3 hover:bg-slate-900 active:scale-95 uppercase">
+        <Link to="/shop" className="flex items-center mx-auto max-w-fit bg-slate-800 shadow-md shadow-slate-800 text-white px-4  py-3 hover:bg-slate-900 active:scale-95 uppercase transition-all">
           <span className="text-xl md:text-lg mr-4">Realize your dreams</span>
           <CustomIcon icon={<IoArrowForwardOutline />} size="1.5rem" />
         </Link>

@@ -6,7 +6,7 @@ import {
   AiOutlineShoppingCart,
 } from "react-icons/ai";
 import CustomIcon from "./UI/CustomIcon";
-function Header() {
+function Header({ itemCount }) {
   return (
     <header className="bg-slate-800 text-white py-4">
       <div className="container flex flex-col md:flex-row items-center">
@@ -42,7 +42,7 @@ function Header() {
                   size="1.75rem"
                   className="mr-2"
                 />
-                Cart
+                Cart {itemCount ? `(${itemCount})` : ""}
               </Link>
             </li>
           </ul>
