@@ -7,323 +7,343 @@ exports[`Shop component tests Shop component renders correctly 1`] = `
     data-testid="shop-component"
   >
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Bentley Bentayga"
           class=""
           src="https://web2.wheelz.me/wp-content/uploads/2021/05/Bentley-Bentayga-Mansory-2021-9.jpg"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Bentley Bentayga
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Bentley Bentayga
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         This stylish car goes well with LV Handbags and Chihuahuas.
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £130,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="BMW 7 Series"
           class=""
           src="https://www.bmw.ca/content/dam/bmw/common/all-models/7-series/sedan/2019/inform/bmw-7series-sedan-inform-line-02-slide-02.jpg"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          BMW 7 Series
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        BMW 7 Series
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         A must have for every executive. Goes well with a Rolex watch.
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £87,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="BMW X6"
           class=""
           src="https://mediacloud.carbuyer.co.uk/image/private/s--QDVS7VFS--/v1584466393/carbuyer/car_images/bmw-x6-suv-cutout-2019.jpg"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          BMW X6
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        BMW X6
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         Are you a bad boi? Then this car is definely for you!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £64,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Lamborghini Urus"
           class=""
           src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/09_26_graphite_lancio/family_chooser1_m.png"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Lamborghini Urus
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Lamborghini Urus
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         If you can afford this, Congratulations! You've won life!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £230,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Mercedes-Benz GLE Coupe"
           class=""
           src="https://www.mansory.com/sites/default/files/styles/1920x800_fullwidth_car_slider/public/2021-06/mansory-mercedes-gle-coupe-01.jpg?itok=vBiOpXxU"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Mercedes-Benz GLE Coupe
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Mercedes-Benz GLE Coupe
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         The essential accessory every suburban mum on the school run shoud have. Watch those rubber necks!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £90,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Mercedes-Benz S Class"
           class=""
           src="https://www.mansory.com/sites/default/files/styles/1920x800_fullwidth_car_slider/public/2021-05/mansory-mercedes-s-class-w223-01.jpg?itok=OgNXlJgr"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Mercedes-Benz S Class
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Mercedes-Benz S Class
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         Do you want to feel as you are driving an airplane crossed with a tank? Then this is for you!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £95,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Audi Q8"
           class=""
           src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/34470/audi-q8-front-view4.jpeg?q=75"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Audi Q8
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Audi Q8
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         A perfect compromise between a middle of life crisys and a family man!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £55,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Range Rover Evoque"
           class=""
           src="https://new.img-cdn.lookers.co.uk/nvmp/CAR/94411/1ec3dc68-6ad9-4423-8d68-e4fb7a451cb7/42d04281-c500-4cdc-9f40-c5dc1d98084b?w=1200"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Range Rover Evoque
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Range Rover Evoque
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         A perfect gift for daddy's little prince(ss).
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £75,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Range Rover Velar"
           class=""
           src="https://sx-content-labs.sixt.io/Media/8fleet-1050x600/land-rover-range-rover-velar-5d-silber-2018.png"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Range Rover Velar
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Range Rover Velar
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         This car is an important fashion statement. It oozes power, fame, money!
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £85,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
     <div
-      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      class=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div
+        class="h-1/3"
+      >
         <img
           alt="Tesla Model X"
           class=""
           src="https://cdn.motor1.com/images/mgl/VR69l/s3/2022-tesla-model-x.jpg"
         />
-        <h4
-          class="text-md mt-4 font-bold"
-        >
-          Tesla Model X
-        </h4>
       </div>
+      <h4
+        class="text-md mt-4 font-bold mb-8"
+      >
+        Tesla Model X
+      </h4>
       <p
-        class="leading-none"
+        class="leading-none mb-8"
       >
         Nothing says more "I have loads of dosh but I care about the environment than this beauty!" 
       </p>
       <div
-        class="text-3xl text-blue-500 font-bold"
+        class="text-3xl text-blue-500 font-bold mb-8"
       >
         £65,000
       </div>
       <button
-        class="bg-slate-800 text-white py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all"
+        class="bg-slate-800 text-white uppercase py-2 w-full shadow-md shadow-slate-800 hover:bg-slate-900 active:scale-95 transition-all text-blue-400"
       >
-        Add to Cart
+        Add to cart
       </button>
     </div>
   </div>

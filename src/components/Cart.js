@@ -1,5 +1,5 @@
 import React from "react";
-import { useRoutes, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ButtonDark from "./UI/ButtonDark";
 import CartItem from "./UI/CartItem";
 import CartSummary from "./UI/CartSummary";

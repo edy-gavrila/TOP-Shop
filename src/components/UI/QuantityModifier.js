@@ -8,9 +8,9 @@ function QuantityModifier({
 }) {
   return (
     <div className="flex flex-col">
-      <ButtonDark text="+" classes="px-2 py-1" onClick={onIncreaseQuantity} />
+      <ButtonDark text="+" classes="px-3 py-1" onClick={onIncreaseQuantity} />
       <span className="text-blue-600 font-bold">{quantity}</span>
-      <ButtonDark text="-" classes="px-2 py-1" onClick={onDecreaseQuantity} />
+      <ButtonDark text="-" classes="px-3 py-1" onClick={onDecreaseQuantity} />
     </div>
   );
 }

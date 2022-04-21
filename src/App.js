@@ -17,7 +17,6 @@ function App() {
     dispatch({ type: "remove", value: item });
   };
 
-  console.log(cart);
   return (
     <div className="App bg-slate-200 min-h-screen min-w-[340px]">
       <Header itemCount={cart.itemCount} />

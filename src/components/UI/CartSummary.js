@@ -1,9 +1,15 @@
 import React from "react";
+import { addCommasToPrice } from "../../API/helperFunctions";
 
 function CartSummary({ cart }) {
+  const cartTotal = addCommasToPrice(cart.total.toString());
+  
   const summaryItems = cart.items.map((item) => {
     const itemPrice = Number.parseFloat(item.product.price.replace(/,/g, ""));
-    const totalForItem = itemPrice * item.quantity;
+
+    let totalForItem = itemPrice * item.quantity;
+    totalForItem = addCommasToPrice(totalForItem.toString());
+
 
     return (
       <div key={item.product.id} className="text-left mb-2">
@@ -21,7 +27,7 @@ function CartSummary({ cart }) {
       {summaryItems}
       <div className="flex justify-between border-b-2 mt-8 mb-4">
         <span className="text-left font-bold">Total:</span>
-        <span className="font-bold">{`£${cart.total}`}</span>
+        <span className="font-bold">{`£${cartTotal}`}</span>
       </div>
     </div>
   );

@@ -8,16 +8,16 @@ function ProductCard({ productData, onAddItem }) {
 
   return (
     <div
-      className=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-[480px] flex flex-col justify-between"
+      className=" bg-white border-slate-800 shadow-lg shadow-slate-600 p-2 md:w-[320px] h-fit md:h-[480px] flex flex-col justify-between"
       data-testid="product-card"
     >
-      <div>
+      <div className="h-1/3">
         <img src={imgUrl} alt={title} className="" />
-        <h4 className="text-md mt-4 font-bold">{title}</h4>
       </div>
+        <h4 className="text-md mt-4 font-bold mb-8">{title}</h4>
 
-      <p className="leading-none">{description}</p>
-      <div className="text-3xl text-blue-500 font-bold">{`£${price}`}</div>
+      <p className="leading-none mb-8">{description}</p>
+      <div className="text-3xl text-blue-500 font-bold mb-8">{`£${price}`}</div>
       <ButtonDark text="Add to cart" onClick={addItemHandler} classes="text-blue-400"/>
     </div>
   );
